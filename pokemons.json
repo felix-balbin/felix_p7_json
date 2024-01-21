@@ -1,0 +1,92 @@
+{
+    "pokemon": [
+        {
+            "id":"0025",
+            "nom":"Pikachu",
+            "tipus":"Electric",
+            "pes":{
+                "unitat_mesura_pes":"g",
+                "num_pes":"60"
+            },  
+            "altura":{
+                "unitat_mesura_altura":"cm",
+                "num_altura":"40"
+            },  
+            "estadistiques":{
+                "velocitat":"4",
+                "fortalesa":"4",
+                "precisio":"4",
+                "resistencia":"4"
+            },
+            "moviments":[
+                {
+                    "nom_moviment":"chispa",
+                    "descripcio": "Chispa causa dany y te una probabilitat del 30% de paralitzar al objectiu",
+                    "potencia":"65",
+                    "contacte":true
+                },
+                {
+                    "nom_moviment":"impactrueno",
+                    "descripcio":"Impactrueno causa dany i te una probabilitat del 10% de paralitzar a l'objectiu",
+                    "potencia":"40",
+                    "contacte":false
+                }
+            ],
+            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/7/77/latest/20150621181250/Pikachu.png",
+            "evolucions":[
+                {
+                    "id":"p011",
+                    "nom_evolucio":"Raichu",
+                    "nivell_necessari":"220"
+                }
+            ]
+        },
+
+
+        
+        {
+            "id":"0281",
+            "nom":"Kirlia",
+            "tipus":{
+                "tipus_1":"psiquic",
+                "tipus_2":"hada"
+            },
+            "pes":{
+                "unitat_mesura_pes":"g",
+                "num_pes":"202"
+            },  
+            "altura":{
+                "unitat_mesura_altura":"cm",
+                "num_altura":"80"
+            },  
+            "estadistiques":{
+                "velocitat":"3",
+                "fortalesa":"4",
+                "precisio":"5",
+                "resistencia":"3"
+            },
+            "moviments":[
+                {
+                    "nom_moviment":"encanto",
+                    "descripcio":"Encanto redueix en dos nivells l'atac de l'objectiu",
+                    "potencia":null,
+                    "contacte":false
+                },
+                {
+                    "nom_moviment":"confusion",
+                    "descripcio":"confusion causa dany i té una probabilitat del 10% de confundir a l'objectiu",
+                    "potencia":"50",
+                    "contacte":false
+                }
+            ],
+            "imagen":"https://images.wikidexcdn.net/mwuploads/wikidex/2/25/latest/20141113231924/Kirlia.png",
+            "evolucions":[
+                {
+                    "id":"0282",
+                    "nom_evolucio":"Gardevoir",
+                    "nivell_necessari":"30"
+                }
+            ]
+        }
+    ]
+}
